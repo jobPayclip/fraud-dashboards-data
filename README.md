@@ -3,12 +3,16 @@
 Data layer para los dashboards de **Fraud & Risk Prevention** — Payclip.
 
 ## Estructura
+
+```
 fraud-dashboards-data/
 ├── mbr/
-│   └── data.js       ← MBR Dashboard (generado automáticamente)
+│   └── data.js                          ← MBR Dashboard
 └── .github/
-└── workflows/
-└── update-data.yml  ← GitHub Action que sincroniza desde Databricks
+    └── workflows/
+        └── update-data.yml              ← GitHub Action
+
+```
 
 ## ¿Cómo funciona?
 
