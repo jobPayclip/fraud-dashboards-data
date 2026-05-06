@@ -18,7 +18,7 @@ fraud-dashboards-data/
 
 1. Un notebook en Databricks genera `data.js` con métricas agregadas de fraude
 2. El archivo se guarda en un Unity Catalog Volume en Databricks
-3. Este GitHub Action lo descarga 3 veces al día (8am, 11am, 2pm CST) y hace push al repo
+3. Este GitHub Action lo descarga diariamente y hace push al repo
 4. El canvas HTML en Glean consume el archivo via jsDelivr CDN al abrirse
 
 ## URLs
