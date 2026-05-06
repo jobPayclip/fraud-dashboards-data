@@ -1,3 +1,9 @@
+// ── LABELS ───────────────────────────────────────────────────────
+var MO_LABELS=["Ene 2025", "Feb 2025", "Mar 2025", "Abr 2025", "May 2025", "Jun 2025", "Jul 2025", "Ago 2025", "Sep 2025", "Oct 2025", "Nov 2025", "Dic 2025", "Ene 2026", "Feb 2026", "Mar 2026", "Abr 2026"];
+var MO_SHORT=["Jan 25", "Feb 25", "Mar 25", "Apr 25", "May 25", "Jun 25", "Jul 25", "Aug 25", "Sep 25", "Oct 25", "Nov 25", "Dec 25", "Jan 26", "Feb 26", "Mar 26", "Apr 26"];
+var MO_HDR=["ENE 25", "FEB 25", "MAR 25", "ABR 25", "MAY 25", "JUN 25", "JUL 25", "AGO 25", "SEP 25", "OCT 25", "NOV 25", "DIC 25", "ENE 26", "FEB 26", "MAR 26", "ABR 26"];
+var IDX_FIRST_2026=12, IDX_LAST=15;
+
 // ── BUD ──────────────────────────────────────────────────────────
 const BUD={ total:{all:{tpv:{ar:[89.00,89.60,90.20,90.80],cbk:[0.139,0.129,0.120,0.114],loss:[0.089,0.082,0.076,0.073],ar_annual:90.00,cbk_annual:0.125,loss_annual:0.080},txn:null}}, cnp:{ all:{tpv:{ar:[73.00,74.00,75.00,77.00],cbk:[1.000,0.950,0.890,0.850],loss:[0.700,0.670,0.620,0.600],ar_annual:75.00,cbk_annual:0.920,loss_annual:0.650},txn:null}, new:{tpv:{ar:[41.00,42.50,45.00,50.00],cbk:[6.500,6.000,5.000,4.000],loss:[4.000,3.000,2.000,1.500],ar_annual:45.00,cbk_annual:5.000,loss_annual:3.500},txn:null} }, cp:{ all:{tpv:{ar:[90.70,91.20,91.70,92.20],cbk:[0.048,0.046,0.044,0.041],loss:[0.024,0.023,0.022,0.021],ar_annual:91.50,cbk_annual:0.045,loss_annual:0.022},txn:null}, new:{tpv:{ar:[77.50,78.50,80.00,81.50],cbk:[0.700,0.650,0.600,0.550],loss:[0.500,0.450,0.420,0.380],ar_annual:80.00,cbk_annual:0.650,loss_annual:0.450},txn:null} } };
 
