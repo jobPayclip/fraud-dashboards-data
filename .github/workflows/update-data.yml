@@ -1,10 +1,10 @@
 name: Update data.js from Databricks
 
 on:
-  schedule:
-    - cron: '0 14 * * *'  # 8am CST (México)
-    - cron: '0 17 * * *'  # 11am CST (México)
-    - cron: '0 20 * * *'  # 2pm CST (México)
+  # schedule desactivado temporalmente — pendiente permisos
+  # - cron: '0 14 * * *'  # 8am CST
+  # - cron: '0 17 * * *'  # 11am CST
+  # - cron: '0 20 * * *'  # 2pm CST
   workflow_dispatch:        # permite correrlo manualmente también
 
 permissions:
